@@ -30,15 +30,6 @@ nav:
   - API Reference: api-reference.md
   - Changelog: changelog.md
 
-# Plugins
-plugins:
-  - search
-  - mkdocstrings:   # for auto API docs (if you want)
-      handlers:
-        python:
-          options:
-            show_source: true
-
 # Markdown extensions
 markdown_extensions:
   - admonition
