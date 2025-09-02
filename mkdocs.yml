@@ -30,6 +30,7 @@ nav:
   - API Reference: api-reference.md
   - Changelog: changelog.md
 
+
 # Markdown extensions
 markdown_extensions:
   - admonition
