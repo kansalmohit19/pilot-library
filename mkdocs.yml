@@ -10,25 +10,25 @@ repo_url: "https://github.com/kansalmohit19/LibraryProject"
 # Theme settings
 theme:
   name: "material"
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.sections
-    - content.code.copy
-    - content.code.annotate
-    - search.suggest
-    - search.highlight
+  language: 'en'
+  icon:
+    logo: material/account-tie-hat
+  palette:
+    primary: 'black'
+    accent: 'deep orange'
+  font:
+    text: 'Roboto'
+    code: 'JetBrains Mono'
 
-# Navigation (add your docs here)
+# Navigation
 nav:
-  - Home: index.md
+  - Overview: index.md
   - Getting Started: getting-started.md
   - Usage:
       - Installation: usage/installation.md
       - Examples: usage/examples.md
   - API Reference: api-reference.md
-  - Changelog: changelog.md
+  - Changelog: change-log.md
 
 
 # Markdown extensions
