@@ -19,12 +19,12 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Build docs
+        run: ./buildDocs.sh
+
       - name: Install dependencies
         run: |
           pip install mkdocs mkdocs-material
-
-      - name: Build docs
-        run: ./buildDocs.sh
 
       - name: Deploy to GitHub Pages
         env:
