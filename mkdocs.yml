@@ -1,3 +1,5 @@
-site_name: My Library
-site_description: Documentation for My Library
-site_url: https://kansalmohit19.github.io/lib
+# Project information
+site_name: 'LibraryProject'
+site_description: 'Documentation for Library Project'
+site_url: 'https://io.github.kansalmohit19/library-project'
+
