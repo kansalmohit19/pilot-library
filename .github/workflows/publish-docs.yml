@@ -23,6 +23,9 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
+      - name: Build docs
+        run: ./buildDocs.sh
+
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}

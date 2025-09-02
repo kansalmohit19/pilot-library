@@ -23,11 +23,11 @@ theme:
 # Navigation
 nav:
   - Overview: index.md
-  - Getting Started: getting-started.md
-  - Usage:
-      - Installation: usage/installation.md
+  - Sample Library:
+      - Guild: sample-library.md
+  - ViewModel:
+      - Guild: view-model.md
       - Examples: usage/examples.md
-  - API Reference: api-reference.md
   - Changelog: change-log.md
 
 
