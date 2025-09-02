@@ -30,4 +30,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
         run: |
+          git config user.name "github-actions[bot]"
+          chmod +x buildDocs.shgit config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdocs gh-deploy --force --remote-name origin
