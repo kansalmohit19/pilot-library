@@ -1,5 +1,49 @@
 # Project information
-site_name: 'LibraryProject'
-site_description: 'Documentation for Library Project'
-site_url: 'https://io.github.kansalmohit19/library-project'
+site_name: "LibraryProject"
+site_description: "Documentation for Library Project"
+site_url: "https://kansalmohit19.github.io/LibraryProject/"
 
+# Repository info (adds edit/view on GitHub buttons)
+repo_name: "kansalmohit19/LibraryProject"
+repo_url: "https://github.com/kansalmohit19/LibraryProject"
+
+# Theme settings
+theme:
+  name: "material"
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+# Navigation (add your docs here)
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Usage:
+      - Installation: usage/installation.md
+      - Examples: usage/examples.md
+  - API Reference: api-reference.md
+  - Changelog: changelog.md
+
+# Plugins
+plugins:
+  - search
+  - mkdocstrings:   # for auto API docs (if you want)
+      handlers:
+        python:
+          options:
+            show_source: true
+
+# Markdown extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
