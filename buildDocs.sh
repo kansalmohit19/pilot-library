@@ -19,7 +19,7 @@ mkdir -p "$DOCS_ROOT"
 cp README.md $DOCS_ROOT/index.md
 cp LICENSE.md $DOCS_ROOT/license.md
 cp samplelibrary/README.md $DOCS_ROOT/sample-library.md
-cp samplelibrary/README.md $DOCS_ROOT/location-library.md
+cp locationlibrary/README.md $DOCS_ROOT/location-library.md
 
 eval sed $SEDOPTION -e 's/LICENSE.md/license/g' "$DOCS_ROOT/index.md"
 

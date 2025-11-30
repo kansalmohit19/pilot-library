@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "pilot-library"
 include(":samplelibrary")
+include(":locationlibrary")
+//include(":mylibrary")
