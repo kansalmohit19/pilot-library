@@ -1,1 +1,1 @@
-# Sample Library Project 
+# Sample Java Library
