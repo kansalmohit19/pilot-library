@@ -1,11 +1,11 @@
 # Project information
-site_name: "LibraryProject"
-site_description: "Documentation for Library Project"
-site_url: "https://kansalmohit19.github.io/LibraryProject/"
+site_name: "Pilot Library"
+site_description: "Documentation for Pilot Project"
+site_url: "https://kansalmohit19.github.io/pilot-library/"
 
 # Repository info (adds edit/view on GitHub buttons)
-repo_name: "kansalmohit19/LibraryProject"
-repo_url: "https://github.com/kansalmohit19/LibraryProject"
+repo_name: "pilot-library"
+repo_url: "https://github.com/kansalmohit19/pilot-library"
 
 # Theme settings
 theme:
@@ -24,12 +24,10 @@ theme:
 nav:
   - Overview: index.md
   - Sample Library:
-      - Guild: sample-library.md
-  - ViewModel:
-      - Guild: view-model.md
-      - Examples: usage/examples.md
-  - Changelog: change-log.md
-
+      - Guide: sample-library.md
+  - Location Library:
+      - Guide: location-library.md
+  - License: license.md
 
 # Markdown extensions
 markdown_extensions:
