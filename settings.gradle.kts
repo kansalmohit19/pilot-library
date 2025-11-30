@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LibraryProject"
+rootProject.name = "pilot-library"
 include(":samplelibrary")
